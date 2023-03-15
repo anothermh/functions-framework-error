@@ -1,0 +1,18 @@
+{
+  "main": "./src/index.js",
+  "packageManager": "yarn@3.4.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.3",
+    "@google-cloud/pubsub": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/long": "^5.0.0",
+    "@types/node": "^18.15.3",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "yarn tsc && yarn run functions-framework --target=testFunction --signature-type=event --trigger-topic=demo"
+  }
+}

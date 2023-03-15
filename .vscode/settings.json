@@ -1,0 +1,11 @@
+{
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "npm.packageManager": "yarn",
+  "search.exclude": {
+    "**/.pnp.*": true,
+    "**/.yarn": true
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib"
+}
